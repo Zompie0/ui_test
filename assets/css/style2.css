@@ -8,6 +8,66 @@ body {
   padding:2rem;
 }
 
+.Test0{
+  display: flex;
+}
+
+.Test1{
+  width: 135px;
+  height: 190px;
+}
+
+.Test1 img {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #ddd;
+}
+
+.flex{
+  display: flex;
+}
+
+.line {
+  display: inline;
+}
+
+.line div {
+  display: flex;
+  writing-mode: vertical-rl;/*縦書き*/
+  font-size: 0.8em;
+  color: #ffffff;
+  justify-content: center;
+
+  padding: 0.25em 0.1em;
+  background-color: #0044ff;
+  height: 45px;
+  width: 15px;
+  border-radius: 15px;
+}
+
+.line a{
+  writing-mode: vertical-rl;
+  letter-spacing: -0.5em;
+  height: 45px;
+  text-decoration: none;
+    color: #4d4d4d;
+}
+
+.taitoru2 strong{
+  display: block;
+
+  width: 100px; /* 省略せずに表示するサイズを指定 */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.taitoru2 a{
+  font-size: 0.7em;
+}
+
 /* 以下、ボタン内部操作 */
 
 /* ボタンの位置、バックグラウンド */
